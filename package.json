@@ -1,0 +1,25 @@
+{
+  "author": "NodeJam<jeswinpk@agilehead.com>",
+  "private": true,
+  "scripts": {
+    "start": "./build.sh && node dist/app.js"
+  },
+  "dependencies": {
+    "path-to-regexp": "*",
+    "parseurl": "*"
+  },
+  "devDependencies": {
+    "babel-core": "6.16.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-2": "*",
+    "json-loader": "*",
+    "mocha": "*",
+    "should": "*",
+    "source-map-loader": "*"
+  }
+}

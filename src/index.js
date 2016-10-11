@@ -1,4 +1,3 @@
-//This is your "web framework"
 import http from "http";
 
 //This is your "router"
